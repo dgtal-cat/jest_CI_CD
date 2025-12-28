@@ -15,7 +15,7 @@ export const kolobok = (person) => {
   }
 }
 
-export const newYear = (person) => {
+export const newYearFun = (person) => {
   if (person === 'Дед Мороз' || person === 'Снегурочка') {
     return `${person}! ${person}! ${person}!`
   } else return 'Неизвестный персонаж!'
